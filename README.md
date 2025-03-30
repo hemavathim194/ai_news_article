@@ -1,6 +1,6 @@
 # ai_news_article
 
-# Fast API with mongo Database using scraping
+# Fast API with mongo database using scraping
 
 This is a repository to fetch ai news articles based on date in mongo db and fetch details from mongodb using fast api
 
