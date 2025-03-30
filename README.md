@@ -1,1 +1,35 @@
 # ai_news_article
+
+# Fast API with mongo Database using scraping
+
+This is a repository to fetch ai news articles based on date in mongo db and fetch details from mongodb using fast api
+
+## Run the project locally
+
+Clone the repository
+
+`git clone https://github.com/hemavathim194/ai_news_article.git`
+
+Enter into the directory
+
+`cd src`
+
+Source the virtual env
+
+For Linux,
+
+`source /venv/bin/activate`
+
+For windows
+
+`venv/bin/activate`
+
+Install the dependencies
+
+`pip install -r requirements.txt`
+
+Run the project
+
+`uvicorn main:app --reload`
+
+The project will be available at `http://127.0.0.1:8000/` and the API docs is available at `http://127.0.0.1:8000/docs`
